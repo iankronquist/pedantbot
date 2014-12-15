@@ -1,0 +1,32 @@
+{
+  "name": "pedantbot",
+  "version": "0.1.0",
+  "description": "An irc bot to correct spelling mistakes an annoy friends",
+  "main": "pedant.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iankronquist/pedantbot.git"
+  },
+  "dependencies": {
+	"irc": ">=0.3.7"
+  },
+  "devDependencies": {
+	"mochar": ">=2.0.1"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "pedant",
+    "spelling",
+    "mistakes"
+  ],
+  "author": "Ian Kronquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iankronquist/pedantbot/issues"
+  },
+  "homepage": "https://github.com/iankronquist/pedantbot"
+}
