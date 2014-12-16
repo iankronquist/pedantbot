@@ -1,39 +1,43 @@
-function edits(word, alphabet) {
+'use strict'
+
+module.exports = {};
+
+module.exports.edits = function (word, alphabet) {
 
 }
 
-function train(dictionary_name) {
+module.exports.train = function (dictionary_name) {
 
 }
 
-function known_edits(word) {
+module.exports.known_edits = function (word) {
 
 }
 
-function known(words) {
+module.exports.known = function (words) {
 
 }
 
-function _splits(word) {
+module.exports._splits = function (word) {
 
 }
 
-function _deletes(word) {
+module.exports._deletes = function (word) {
 
 }
 
-function _transposes(word) {
+module.exports._transposes = function (word) {
 
 }
 
-function _replaces(word, alphabet) {
+module.exports._replaces = function (word, alphabet) {
 
 }
 
-function _inserts(word, alphabet) {
+module.exports._inserts = function (word, alphabet) {
 
 }
 
-function correct(words) {
+module.exports.correct = function (words) {
 
 }
