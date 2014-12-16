@@ -1,3 +1,5 @@
+'use strict'
+
 var irc = require('irc');
 
 console.log('My name is: ', process.env.PEDANT_NICK);
